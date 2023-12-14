@@ -99,12 +99,19 @@ button:hover,
 button:focus{
     color: var(--Smokey-grey);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:4250px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
     .card{
-        width: 360px;
+        width: 90%;
     }
     .container{
         padding: 1rem;
+    }
+    input{
+        width: 90%;
     }
     .form_container{
         margin-bottom: 5rem;
@@ -121,9 +128,9 @@ button:focus{
         transform: translate(-50%,-50%);
     }
     .output{
-        margin-top: 5rem;
+        margin-top: 12%;
     }
     .output h1{
-        font-size: 3.5rem;
+        font-size: 48px;
     }
 }
